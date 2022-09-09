@@ -1,0 +1,38 @@
+html {
+box-sizing: border-box;
+}
+*, *:before,*:after {
+box-sizing: inherit;
+}
+body{
+    background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(54, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+    color: white;
+    font-family: "Roboto";
+}
+
+h1{
+    font-size: 6vh;
+}
+p{
+    font-size: 2vw;
+}
+.advert{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50%;
+    text-align:center
+}
+
+img{
+
+    
+    padding: 10px;
+    position: absolute;
+    top:40%;
+    right:15%;
+    
+    width: 300px;
+    
